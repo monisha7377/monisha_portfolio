@@ -33,19 +33,19 @@ const App = () => {
         ],
 
         skills: [
-            { name: "Python", level: "90%" },
-            { name: "Java", level: "85%" },
+            { name: "Java", level: "90%" },
+            { name: "Python", level: "85%" },
             { name: "JavaScript", level: "80%" },
-            { name: "HTML & CSS", level: "95%" },
+            { name: "HTML & CSS", level: "85%" },
             { name: "Data Structures & Algorithms", level: "88%" },
-            { name: "Machine Learning & AI", level: "92%" },
+            { name: "Machine Learning & AI", level: "90%" },
             { name: "Web Development", level: "85%" },
             { name: "Database Management", level: "75%" },
         ],
     };
 
     return (
-        <div className="font-sans antialiased text-gray-800 bg-gray-100 min-h-screen">
+        <div className="font-sans antialiased text-gray-800 bg-gray-100 min-h-screen flex items-center justify-center py-12">
             <style jsx="true">{`
                 body {
                     font-family: 'Inter', sans-serif;
